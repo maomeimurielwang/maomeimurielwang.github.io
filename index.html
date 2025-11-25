@@ -1,0 +1,263 @@
+{\rtf1\ansi\ansicpg936\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red251\green251\blue251;\red38\green38\blue38;}
+{\*\expandedcolortbl;;\cssrgb\c98824\c98824\c98824;\cssrgb\c19608\c19608\c19608;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="zh-CN">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Maomei Wang - Academic Page</title>\
+    <style>\
+        /* \uc0\u20840 \u23616 \u26679 \u24335  */\
+        :root \{\
+            --primary-color: #2c3e50; /*\uc0\u20197 \u27492 \u25511 \u21046 \u20027 \u35201 \u39068 \u33394 */\
+            --accent-color: #3498db;\
+            --bg-color: #f9f9f9;\
+            --text-color: #333;\
+        \}\
+        \
+        body \{\
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;\
+            margin: 0;\
+            color: var(--text-color);\
+            display: flex;\
+            min-height: 100vh;\
+            background-color: var(--bg-color);\
+        \}\
+\
+        /* \uc0\u24038 \u20391 \u20391 \u36793 \u26639  (\u20010 \u20154 \u20449 \u24687  + \u23548 \u33322 ) */\
+        header \{\
+            background-color: #fff;\
+            width: 280px;\
+            padding: 40px 20px;\
+            position: fixed;\
+            height: 100%;\
+            border-right: 1px solid #eee;\
+            display: flex;\
+            flex-direction: column;\
+            align-items: center;\
+            text-align: center;\
+            box-sizing: border-box;\
+        \}\
+\
+        /* \uc0\u22836 \u20687 \u21306 \u22495  */\
+        .profile-img \{\
+            width: 150px;\
+            height: 150px;\
+            border-radius: 50%;\
+            background-color: #ddd; /* \uc0\u26367 \u25442 \u20026 \u20320 \u30340 \u22270 \u29255  */\
+            margin-bottom: 20px;\
+            object-fit: cover;\
+        \}\
+\
+        h1 \{ font-size: 1.5rem; margin: 10px 0; color: var(--primary-color); \}\
+        .affiliation \{ font-size: 0.9rem; color: #666; margin-bottom: 20px; \}\
+        \
+        /* \uc0\u23548 \u33322 \u38142 \u25509  */\
+        nav a \{\
+            display: block;\
+            text-decoration: none;\
+            color: #555;\
+            padding: 10px;\
+            margin: 5px 0;\
+            font-weight: 500;\
+            transition: color 0.3s;\
+        \}\
+        nav a:hover \{ color: var(--accent-color); \}\
+\
+        /* \uc0\u31038 \u20132 \u38142 \u25509 /\u32852 \u31995 \u26041 \u24335  */\
+        .contact-links \{ margin-top: 30px; font-size: 0.9rem; \}\
+        .contact-links a \{ color: var(--accent-color); text-decoration: none; display: block; margin: 5px 0;\}\
+\
+        /* \uc0\u21491 \u20391 \u20027 \u35201 \u20869 \u23481  */\
+        main \{\
+            margin-left: 280px; /* \uc0\u30041 \u20986 \u20391 \u36793 \u26639 \u23485 \u24230  */\
+            padding: 50px 80px;\
+            max-width: 800px;\
+            width: 100%;\
+        \}\
+\
+        section \{ margin-bottom: 60px; scroll-margin-top: 20px;\}\
+        h2 \{ \
+            border-bottom: 2px solid #eee; \
+            padding-bottom: 10px; \
+            color: var(--primary-color);\
+            margin-bottom: 20px;\
+        \}\
+\
+        /* Research/Paper \uc0\u21015 \u34920 \u26679 \u24335  */\
+        .paper-item \{ margin-bottom: 15px; \}\
+        .paper-title \{ font-weight: bold; color: #222; \}\
+        .paper-authors \{ color: #555; font-size: 0.95rem; \}\
+        .paper-venue \{ font-style: italic; color: #666; font-size: 0.9rem; \}\
+        .paper-links a \{\
+            font-size: 0.85rem;\
+            color: var(--accent-color);\
+            text-decoration: none;\
+            margin-right: 10px;\
+            border: 1px solid var(--accent-color);\
+            padding: 2px 6px;\
+            border-radius: 4px;\
+        \}\
+        .paper-links a:hover \{ background-color: var(--accent-color); color: #fff; \}\
+\
+        /* Teaching & CV \uc0\u21015 \u34920  */\
+        ul.simple-list \{ list-style-type: none; padding: 0; \}\
+        ul.simple-list li \{ margin-bottom: 10px; display: flex; justify-content: space-between; \}\
+        .year \{ font-weight: bold; color: #888; min-width: 80px; \}\
+\
+        /* \uc0\u31227 \u21160 \u31471 \u36866 \u37197  */\
+        @media (max-width: 768px) \{\
+            body \{ flex-direction: column; \}\
+            header \{ width: 100%; position: relative; height: auto; border-right: none; border-bottom: 1px solid #eee; \}\
+            main \{ margin-left: 0; padding: 30px 20px; \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <!-- \uc0\u24038 \u20391 \u26639 \u65306 \u20010 \u20154 \u20449 \u24687  -->\
+    <header>\
+        <!-- \uc0\u35831 \u26367 \u25442  src="\u20320 \u30340 \u29031 \u29255 \u36335 \u24452 .jpg" -->\
+        <
+\f1\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 img src="profile.jpg
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 " alt="Profile Photo" class="profile-img">\
+        \
+        <h1>Maomei Wang (Maomei Wang)</h1>\
+        <div class="affiliation">\
+            Ph.D. Candidate<br>\
+            University of XXXXX<br>\
+            Dept. of Computer Science\
+        </div>\
+\
+        <nav>\
+            <a href="#intro">Intro</a>\
+            <a href="#research">Research</a>\
+            <a href="#teaching">Teaching</a>\
+            <a href="#cv">CV</a>\
+        </nav>\
+\
+        <div class="contact-links">\
+            <a href="mailto:your.email@edu.com">Email Me</a>\
+            <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>\
+            <a href="https://github.com/" target="_blank">GitHub</a>\
+            <a href="https://twitter.com/" target="_blank">Twitter / X</a>\
+        </div>\
+    </header>\
+\
+    <!-- \uc0\u21491 \u20391 \u26639 \u65306 \u20027 \u35201 \u20869 \u23481  -->\
+    <main>\
+        \
+        <!-- Intro -->\
+        <section id="intro">\
+            <h2>Introduction</h2>\
+            <p>\
+                \uc0\u20320 \u22909 \u65281 \u25105 \u26159 \u26576 \u26576 \u22823 \u23398 \u35745 \u31639 \u26426 \u31995 \u30340 \u21338 \u22763 \u29983 \u65292 \u24072 \u20174  <strong>\u26576 \u26576 \u25945 \u25480 </strong>\u12290 \
+                \uc0\u22312 \u27492 \u20043 \u21069 \u65292 \u25105 \u22312 \u26576 \u26576 \u22823 \u23398 \u33719 \u24471 \u20102 \u23398 \u22763 \u23398 \u20301 \u12290 \
+            </p>\
+            <p>\
+                \uc0\u25105 \u30340 \u30740 \u31350 \u20852 \u36259 \u20027 \u35201 \u38598 \u20013 \u22312 \u65306 \
+            </p>\
+            <ul>\
+                <li>\uc0\u30740 \u31350 \u26041 \u21521  A (e.g., Machine Learning)</li>\
+                <li>\uc0\u30740 \u31350 \u26041 \u21521  B (e.g., Computer Vision)</li>\
+                <li>\uc0\u30740 \u31350 \u26041 \u21521  C (e.g., Optimization)</li>\
+            </ul>\
+            <p>\
+                <strong style="color: #c0392b;">News:</strong> \
+                <br>\
+                [2025.11] \uc0\u19968 \u31687 \u35770 \u25991 \u34987  CVPR 2025 \u25509 \u25910 !\
+                <br>\
+                [2025.09] \uc0\u24320 \u22987 \u22312 \u26576 \u26576 \u20844 \u21496 \u23454 \u20064 \u12290 \
+            </p>\
+        </section>\
+\
+        <!-- Research -->\
+        <section id="research">\
+            <h2>Selected Publications</h2>\
+            \
+            <!-- \uc0\u35770 \u25991  1 -->\
+            <div class="paper-item">\
+                <div class="paper-title">Title of Your Amazing Paper</div>\
+                <div class="paper-authors"><strong>Maomei Wang</strong>, Co-author A, Co-author B</div>\
+                <div class="paper-venue">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025</div>\
+                <div class="paper-links">\
+                    <a href="#">PDF</a>\
+                    <a href="#">Code</a>\
+                    <a href="#">Project Page</a>\
+                </div>\
+            </div>\
+\
+            <!-- \uc0\u35770 \u25991  2 -->\
+            <div class="paper-item">\
+                <div class="paper-title">Another Great Research Work on AI</div>\
+                <div class="paper-authors">Co-author A, <strong>Maomei Wang</strong>, Advisor C</div>\
+                <div class="paper-venue">NeurIPS, 2024</div>\
+                <div class="paper-links">\
+                    <a href="#">PDF</a>\
+                    <a href="#">Code</a>\
+                </div>\
+            </div>\
+\
+        </section>\
+\
+        <!-- Teaching -->\
+        <section id="teaching">\
+            <h2>Teaching</h2>\
+            <ul class="simple-list">\
+                <li>\
+                    <span>CS101: Intro to Programming (Teaching Assistant)</span>\
+                    <span class="year">Fall 2024</span>\
+                </li>\
+                <li>\
+                    <span>CS202: Data Structures (Teaching Assistant)</span>\
+                    <span class="year">Spring 2024</span>\
+                </li>\
+            </ul>\
+        </section>\
+\
+        <!-- CV -->\
+        <section id="cv">\
+            <h2>Curriculum Vitae</h2>\
+            <p>\
+                <a href="cv_maomei wang.pdf" style="background: #2c3e50; color: #fff; padding: 8px 15px; text-decoration: none; border-radius: 5px;">Download Full CV (PDF)</a>\
+            </p>\
+            \
+            <h3>Education</h3>\
+            <ul class="simple-list">\
+                <li>\
+                    <span><strong>University of XXXXX</strong>, Ph.D. in Computer Science</span>\
+                    <span class="year">2022 - Present</span>\
+                </li>\
+                <li>\
+                    <span><strong>YYYYY University</strong>, B.S. in Mathematics</span>\
+                    <span class="year">2018 - 2022</span>\
+                </li>\
+            </ul>\
+\
+            <h3>Awards</h3>\
+            <ul class="simple-list">\
+                <li>\
+                    <span>National Scholarship</span>\
+                    <span class="year">2023</span>\
+                </li>\
+                <li>\
+                    <span>Best Paper Award @ Some Conference</span>\
+                    <span class="year">2022</span>\
+                </li>\
+            </ul>\
+        </section>\
+        \
+        <footer style="margin-top: 50px; font-size: 0.8rem; color: #888; border-top: 1px solid #eee; padding-top: 20px;">\
+            &copy; 2025 Maomei Wang. Last updated: Nov 2025.\
+        </footer>\
+\
+    </main>\
+\
+</body>\
+</html>}
